@@ -1,0 +1,76 @@
+.fashion__cards {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 40px 20px;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .fashion__cards {
+    gap: 50px;
+  }
+}
+
+.fashion__cards .fashion__card {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .fashion__cards .fashion__card {
+    height: 500px;
+  }
+}
+
+.fashion__cards .fashion__card img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.fashion__cards .fashion__card .message {
+  top: 50px;
+  left: 50px;
+  right: 50px;
+  bottom: 50px;
+  position: absolute;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 1;
+  color: #fff;
+}
+
+.fashion__cards .fashion__card .message .title {
+  text-transform: uppercase;
+}
+
+.fashion__cards .fashion__card .message .text {
+  font-weight: 600;
+  font-size: var(--ml);
+  text-transform: capitalize;
+  margin-top: 30px;
+}
+
+.fashion__cards .fashion__card .message button {
+  border: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 15px 30px;
+  border-radius: 6px;
+  margin-top: 30px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+/*# sourceMappingURL=fashion__cards.css.map */

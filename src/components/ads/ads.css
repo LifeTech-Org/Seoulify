@@ -1,0 +1,212 @@
+.ads {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.ads .ads__section {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 50px 0px;
+}
+
+.ads .ads__section .one {
+  height: 400px;
+}
+
+.ads .ads__section .two {
+  min-height: 600px;
+  max-height: 600px;
+  overflow: auto;
+}
+
+.ads .ads__section .three {
+  min-height: 700px;
+  max-height: 700px;
+  overflow: auto;
+}
+
+.ads .ads__section .article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px;
+}
+
+@media (width: 768px) {
+  .ads .ads__section .article {
+    margin: 50px;
+  }
+}
+
+.ads .ads__section .article .title {
+  text-transform: capitalize;
+  color: var(--primaryblack);
+}
+
+.ads .ads__section .article h1 {
+  margin-top: 30px;
+  color: var(--primaryblack);
+}
+
+.ads .ads__section .article button {
+  margin-top: 30px;
+  width: 120px;
+  height: 40px;
+  border-radius: 4px;
+  border: none;
+  text-transform: capitalize;
+  background-color: var(--primaryblack);
+  color: var(--normalwhite);
+}
+
+.ads .ads__section .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 20px;
+}
+
+@media (width: 768px) {
+  .ads .ads__section .cards {
+    margin: 50px;
+  }
+}
+
+.ads .ads__section .cards .imgcard {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-color: #f1f1f1;
+  overflow: hidden;
+  position: relative;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ads .ads__section .cards .imgcard img {
+  width: 100%;
+  height: auto;
+}
+
+.ads .ads__section .cards .imgcard .actions {
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ads .ads__section .cards .imgcard .actions .sale {
+  background-color: var(--primarycolor);
+  color: var(--normalwhite);
+  width: 120px;
+  height: 40px;
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.ads .ads__section .cards .imgcard .actions div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+}
+
+.ads .ads__section .cards .imgcard .actions div button {
+  height: 40px;
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+  background-color: var(--primaryblack);
+  width: 100%;
+  text-transform: capitalize;
+  color: var(--normalwhite);
+}
+
+.ads .ads__section .cards .description {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-height: 100px;
+  max-height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ads .ads__section .cards .description .title {
+  text-transform: capitalize;
+}
+
+.ads .ads__section .cards .description h3 {
+  text-transform: capitalize;
+  font-weight: 600;
+  color: var(--primaryblack);
+  margin: 10px 0px;
+}
+
+.ads .ads__section .cards .description .price .old {
+  text-decoration: line-through;
+  color: #6a707e;
+}
+
+.ads .ads__section .cards .description .price .new {
+  margin-left: 10px;
+  color: var(--primaryblack);
+}
+/*# sourceMappingURL=ads.css.map */

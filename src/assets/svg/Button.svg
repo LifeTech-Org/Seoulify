@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="228" height="70" viewBox="0 0 228 70">
+  <g id="Button" transform="translate(-1114 -1420)">
+    <rect id="bg" width="228" height="70" transform="translate(1114 1420)" fill="#32353c"/>
+    <text id="Subscribe" transform="translate(1228 1463)" fill="#fff" font-size="26" font-family="SegoeUI, Segoe UI" letter-spacing="0.021em"><tspan x="-57.72" y="0">Subscribe</tspan></text>
+  </g>
+</svg>

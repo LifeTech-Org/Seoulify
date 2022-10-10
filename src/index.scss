@@ -1,9 +1,8 @@
 /* Colors */
 @font-face {
   font-family: "default";
-  src: url("./assets/fonts/Proxima Nova Font.otf");
+  src: url("./assets/fonts/Proxima\ Nova\ Font.otf");
 }
-
 body,
 * {
   margin: 0;
@@ -28,14 +27,18 @@ ul {
   --coolwhite: rgba(225, 225, 225, 0.7);
   --dimwhite: rgba(225, 225, 225, 0.5);
   --shadewhite: rgba(225, 225, 225, 0.1);
+
   --normalblack: rgba(0, 0, 0, 1);
   --coolblack: rgba(0, 0, 0, 0.7);
   --dimblack: rgba(0, 0, 0, 0.5);
   --shadeblack: rgba(0, 0, 0, 0.1);
   --primaryblack: #32353c;
   --nblack: #32353c;
+
   --primarycolor: #b79b6c;
+
   /* Font sizes */
+
   --xs: 10px;
   --sm: 13px;
   --md: 15px;
@@ -47,23 +50,18 @@ ul {
 h1 {
   font-size: var(--ml);
 }
-
 h2 {
   font-size: var(--xl);
 }
-
 h3 {
   font-size: var(--lg);
 }
-
 h4 {
   font-size: var(--md);
 }
-
 h5 {
   font-size: var(--sm);
 }
-
 h1,
 h2,
 h3,
@@ -86,88 +84,67 @@ a {
 
 /* Setting container styles */
 .container {
-  display: -ms-grid;
   display: grid;
 }
-
 @media (max-width: 768px) {
   .col-sm-1 {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
   .col-sm-2 {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
   .col-sm-3 {
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
   .col-sm-4 {
-    -ms-grid-columns: (1fr)[4];
-        grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
   .col-sm-5 {
-    -ms-grid-columns: (1fr)[5];
-        grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr);
   }
   .col-sm-6 {
-    -ms-grid-columns: (1fr)[6];
-        grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(6, 1fr);
   }
 }
 
 @media (min-width: 768px) {
   .col-md-1 {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
   .col-md-2 {
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
   .col-md-3 {
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
   .col-md-4 {
-    -ms-grid-columns: (1fr)[4];
-        grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
   .col-md-5 {
-    -ms-grid-columns: (1fr)[5];
-        grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr);
   }
   .col-md-6 {
-    -ms-grid-columns: (1fr)[6];
-        grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(6, 1fr);
   }
 }
 
 @media (min-width: 1024px) {
   .col-lg-1 {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
   .col-lg-2 {
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
   .col-lg-3 {
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
   .col-lg-4 {
-    -ms-grid-columns: (1fr)[4];
-        grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
   .col-lg-5 {
-    -ms-grid-columns: (1fr)[5];
-        grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr);
   }
   .col-lg-6 {
-    -ms-grid-columns: (1fr)[6];
-        grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(6, 1fr);
   }
 }
-/*# sourceMappingURL=index.css.map */

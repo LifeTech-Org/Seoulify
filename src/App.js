@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import "./App.css";
+import {
+  Header,
+  Hero,
+  Info,
+  Subscribe,
+  Share,
+  Actions,
+  Footer,
+  FashionCards,
+  Ads,
+} from "./components";
+import ButtonWithLoading from "./HOC";
+import withFoo from "./HOC";
 
-function App() {
+const App = () => {
+  const [isLoading, setIsLoading] = useState(false);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Hero />
+      <Info />
+      <Ads />
+      <Subscribe />
+      <Share />
+      <FashionCards />
+      <Actions />
+      <Footer />
+      {/* <ButtonWithLoading
+        isLoading={isLoading}
+        onClick={() => setIsLoading(true)}
+      >
+        More
+      </ButtonWithLoading> */}
+    </>
   );
-}
+};
 
 export default App;
